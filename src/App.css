@@ -324,8 +324,9 @@
 .main-contacts .contacts .contacts-text {
   color: #fff;
 }
-.main-contacts .contacts .contacts-details {
+.main-contacts .contacts .contacts-details a {
   color: rgb(172, 161, 161);
+  text-decoration: none;
 }
 .contactMe {
   width: 60%;

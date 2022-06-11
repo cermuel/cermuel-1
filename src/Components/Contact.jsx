@@ -10,16 +10,15 @@ const Contact = () => {
         <div className="contacts">
           <div className="contacts-text">Phone</div>
           <div className="contacts-details" action="">
-            +234-706-355-4955
+            <a href="tel:+2347063554955">+234-706-355-4955</a>
           </div>
         </div>
         <div className="contacts">
           <div className="contacts-text">Email</div>
-          <div
-            className="contacts-details"
-            action="mailto: samuelobasi2005@gmail.com"
-          >
-            samuelobasi2005@gmail.com
+          <div className="contacts-details" action="">
+            <a href="mailto:samuelobasi2005@gmail.com">
+              samuelobasi2005@gmail.com
+            </a>
           </div>
         </div>
       </div>
