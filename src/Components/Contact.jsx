@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
+import Modal from "./Modal";
 
 const Contact = () => {
+  const [openModal, setopenModal] = useState(false);
   return (
     <div className="contactContainer">
       <div className="container-item main-header">Drop A Query</div>
@@ -24,6 +26,9 @@ const Contact = () => {
       </div>
       <div className="container-item contactMe">
         <form
+          onSubmit={() => {
+            setopenModal(true);
+          }}
           action="https://formsubmit.co/5e4d1009b5e39bb0ccaba60202326bbe"
           method="POST"
         >
@@ -58,6 +63,7 @@ const Contact = () => {
           />
           <button type="submit">SEND</button>
         </form>
+        {openModal && <Modal closeModal={setopenModal} />}
       </div>
     </div>
   );
