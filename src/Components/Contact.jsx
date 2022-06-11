@@ -27,6 +27,12 @@ const Contact = () => {
           action="https://formsubmit.co/5e4d1009b5e39bb0ccaba60202326bbe"
           method="POST"
         >
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://cermuel.vercel.app"
+          />
           <input
             type="text"
             placeholder="Name"
