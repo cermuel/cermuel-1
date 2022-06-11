@@ -4,7 +4,7 @@ import "../App.css";
 const Contact = () => {
   return (
     <div className="contactContainer">
-      <div className="container-item main-header">Drop A Line</div>
+      <div className="container-item main-header">Drop A Query</div>
       <br />
       <div className="container-item main-contacts">
         <div className="contacts">
@@ -23,15 +23,20 @@ const Contact = () => {
         </div>
       </div>
       <div className="container-item contactMe">
-        <form action="">
+        <form
+          action="https://formsubmit.co/samuelobasi2005@gmail.com"
+          method="POST"
+        >
           <input
             type="text"
             placeholder="Name"
             className="user-info"
+            name="Name"
             required
           />
           <br />
           <input
+            name="Email"
             type="email"
             placeholder="Email"
             className="user-info"
@@ -39,6 +44,7 @@ const Contact = () => {
           />
           <br />
           <input
+            name="Query"
             type="text"
             placeholder="Tell Me About your issue"
             className="my-info"
