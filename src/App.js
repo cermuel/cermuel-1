@@ -96,16 +96,24 @@ function App() {
         <div className="footer">
           <div className="footer-links">
             <div className="icon-link">
-              <FiTwitter className="footer-icon" />
+              <a href="https://twitter.com/cermue1">
+                <FiTwitter className="footer-icon" />
+              </a>
             </div>
             <div className="icon-link">
-              <FiInstagram className="footer-icon" />
+              <a href="https://www.instagram.com/cermuel">
+                <FiInstagram className="footer-icon" />
+              </a>
             </div>
             <div className="icon-link">
-              <FaLinkedinIn className="footer-icon" />
+              <a href="https://www.linkedin.com/in/ngene-samuel-obasi/">
+                <FaLinkedinIn className="footer-icon" />
+              </a>
             </div>
             <div className="icon-link">
-              <FiGithub className="footer-icon" />
+              <a href="https://github.com/cermuel">
+                <FiGithub className="footer-icon" />
+              </a>
             </div>
           </div>
           <div className="footer-text">

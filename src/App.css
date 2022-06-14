@@ -458,6 +458,10 @@
   margin: 2%;
   cursor: pointer;
 }
+.footer-links .icon-link a {
+  color: white;
+  text-decoration: none;
+}
 .footer-text {
   color: rgb(133, 130, 130);
 }
