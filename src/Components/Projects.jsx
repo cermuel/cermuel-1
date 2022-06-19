@@ -41,7 +41,9 @@ const Projects = () => {
           <div className="date">May 2021</div>
           <div className="project-links">
             <div className="repo">REPO</div>
-            <div className="live-view">LIVE</div>
+            <div className="live-view" style={{ cursor: "pointer" }}>
+              LIVE
+            </div>
           </div>
         </div>
         <div className="project-cards">
