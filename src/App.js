@@ -6,6 +6,7 @@ import { AiOutlineHome } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi";
 import { FaProjectDiagram } from "react-icons/fa";
 import { AiOutlineUser } from "react-icons/ai";
+import { FaPaperPlane } from "react-icons/fa";
 import Home from "./Components/Home";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
@@ -68,7 +69,7 @@ function App() {
               <li className="list">
                 <a href="#contact">
                   <span className="icon">
-                    <AiOutlineUser />
+                    <FaPaperPlane />
                   </span>
                   <span className="text">Contact</span>
                 </a>
