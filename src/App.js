@@ -91,9 +91,9 @@ function App() {
         <div className="section" id="contact">
           <Contact />
         </div>
-        <div className="microphone">
+        {/* <div className="microphone">
           <FaMicrophone className="icon" />
-        </div>
+        </div> */}
         <div className="footer">
           <div className="footer-links">
             <div className="icon-link">

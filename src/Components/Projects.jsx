@@ -10,7 +10,9 @@ const Projects = () => {
           <div className="project-name">RICKIPEDIA</div>
           <div className="date">September 2021</div>
           <div className="project-links">
-            <div className="repo">REPO</div>
+            <div className="repo">
+              <a href="https://github.com/cermuel/RICKIPEDIA">REPO</a>
+            </div>
             <div className="live-view">
               <a href="https://rickipedia-mu.vercel.app/">LIVE</a>
             </div>
@@ -20,7 +22,9 @@ const Projects = () => {
           <div className="project-name">MOVIE INFO</div>
           <div className="date">April 2022</div>
           <div className="project-links">
-            <div className="repo">REPO</div>
+            <div className="repo">
+              <a href="https://github.com/cermuel/myMovie-i">REPO</a>
+            </div>
             <div className="live-view">
               <a href="https://movie-info-watch.vercel.app/">LIVE</a>
             </div>
@@ -30,19 +34,23 @@ const Projects = () => {
           <div className="project-name">MOVIE INFO 2.0</div>
           <div className="date">May 2022</div>
           <div className="project-links">
-            <div className="repo">REPO</div>
+            <div className="repo">
+              <a href="https://github.com/cermuel/myMovie2-i">REPO</a>
+            </div>
             <div className="live-view">
               <a href="https://movie-info-updated.vercel.app/">LIVE</a>
             </div>
           </div>
         </div>
         <div className="project-cards">
-          <div className="project-name">CHAT-APP</div>
+          <div className="project-name">GOOGLE-AUTH</div>
           <div className="date">May 2021</div>
           <div className="project-links">
-            <div className="repo">REPO</div>
+            <div className="repo">
+              <a href="https://github.com/cermuel/google-auth">REPO</a>
+            </div>
             <div className="live-view" style={{ cursor: "pointer" }}>
-              LIVE
+              <a href="https://google-auth-cermuel.vercel.app/">LIVE</a>
             </div>
           </div>
         </div>
@@ -50,7 +58,9 @@ const Projects = () => {
           <div className="project-name">CRYPTO INFORMATION</div>
           <div className="date">January 2022</div>
           <div className="project-links">
-            <div className="repo">REPO</div>
+            <div className="repo">
+              <a href="https://github.com/cermuel/crypto-stats">REPO</a>
+            </div>
             <div className="live-view">
               <a href="https://mycrypto-i.vercel.app/">LIVE</a>
             </div>
