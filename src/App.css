@@ -541,11 +541,10 @@
   text-decoration: underline;
   color: #02356b;
 }
-.repo,
 .live-view a {
   cursor: pointer;
-  color: #02356b;
+  color: white;
 }
-.github-repo-link {
+.repo a {
   color: #007bff;
 }
