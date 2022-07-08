@@ -19,6 +19,18 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-cards">
+          <div className="project-name">CLONIFY</div>
+          <div className="date">May 2021</div>
+          <div className="project-links">
+            <div className="repo">
+              <a href="https://github.com/cermuel/clonify">REPO</a>
+            </div>
+            <div className="live-view" style={{ cursor: "pointer" }}>
+              <a href="https://cermuel-clonify.vercel.app/">LIVE</a>
+            </div>
+          </div>
+        </div>
+        <div className="project-cards">
           <div className="project-name">CERMUEL || CHAT-APP</div>
           <div className="date">July 2022</div>
           <div className="project-links">
@@ -54,18 +66,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project-cards">
-          <div className="project-name">GOOGLE-AUTH</div>
-          <div className="date">May 2021</div>
-          <div className="project-links">
-            <div className="repo">
-              <a href="https://github.com/cermuel/google-auth">REPO</a>
-            </div>
-            <div className="live-view" style={{ cursor: "pointer" }}>
-              <a href="https://google-auth-cermuel.vercel.app/">LIVE</a>
-            </div>
-          </div>
-        </div>
+
         <div className="project-cards">
           <div className="project-name">CRYPTO INFORMATION</div>
           <div className="date">January 2022</div>
