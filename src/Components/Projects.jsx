@@ -31,14 +31,14 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-cards">
-          <div className="project-name">MOVIE INFO</div>
-          <div className="date">April 2022</div>
+          <div className="project-name">BLOG APP</div>
+          <div className="date">July 2022</div>
           <div className="project-links">
             <div className="repo">
-              <a href="https://github.com/cermuel/myMovie-i">REPO</a>
+              <a href="https://github.com/cermuel/blog-app">REPO</a>
             </div>
             <div className="live-view">
-              <a href="https://movie-info-watch.vercel.app/">LIVE</a>
+              <a href="https://cermuel-blog-app.vercel.app/">LIVE</a>
             </div>
           </div>
         </div>
