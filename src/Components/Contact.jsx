@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
 import Modal from "./Modal";
+import swal from "sweetalert";
 
 const Contact = () => {
   const [openModal, setopenModal] = useState(false);
@@ -27,7 +28,7 @@ const Contact = () => {
       <div className="container-item contactMe">
         <form
           onSubmit={() => {
-            setopenModal(true);
+            swal("Good job!", "Message Successfully Sent!", "success");
           }}
           action="https://formsubmit.co/5e4d1009b5e39bb0ccaba60202326bbe"
           method="POST"
