@@ -43,7 +43,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-cards">
-          <div className="project-name">MOVIE INFO 2.0</div>
+          <div className="project-name">MOVIE INFO</div>
           <div className="date">May 2022</div>
           <div className="project-links">
             <div className="repo">
