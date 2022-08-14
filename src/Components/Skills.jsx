@@ -44,7 +44,15 @@ const Skills = () => {
           <div className="skills-name">CSS3</div>
         </div>
         <div className="skills-item">
-          <img src={wordpress} alt="" className="img-big" />
+          <img
+            src={wordpress}
+            alt=""
+            style={{
+              width: "120px",
+              height: "140px",
+              background: "transparent",
+            }}
+          />
           <div className="skills-name">WordPress</div>
         </div>
       </div>
