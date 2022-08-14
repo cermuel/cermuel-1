@@ -8,6 +8,7 @@ import next from "../SKILLS LOGO/NEXT.png";
 import react from "../SKILLS LOGO/REACT.png";
 import vscode from "../SKILLS LOGO/VSCODE.png";
 import firebase from "../SKILLS LOGO/firebase.png";
+import wordpress from "../SKILLS LOGO/wordpress.png";
 
 const Skills = () => {
   return (
@@ -43,8 +44,8 @@ const Skills = () => {
           <div className="skills-name">CSS3</div>
         </div>
         <div className="skills-item">
-          <img src={vscode} alt="" className="img-big" />
-          <div className="skills-name">Visual Studio Code</div>
+          <img src={wordpress} alt="" className="img-big" />
+          <div className="skills-name">WordPress</div>
         </div>
       </div>
     </>
