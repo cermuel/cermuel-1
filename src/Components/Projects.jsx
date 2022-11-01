@@ -19,6 +19,18 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-cards">
+          <div className="project-name">ChatBot</div>
+          <div className="date">July 2022</div>
+          <div className="project-links">
+            <div className="repo">
+              <a href="https://github.com/cermuel/lonely">REPO</a>
+            </div>
+            <div className="live-view">
+              <a href="https://lonelyy.vercel.app/">LIVE</a>
+            </div>
+          </div>
+        </div>
+        <div className="project-cards">
           <div className="project-name">CLONIFY</div>
           <div className="date">May 2021</div>
           <div className="project-links">
@@ -31,42 +43,17 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-cards">
-          <div className="project-name">CERMUEL || CHAT-APP</div>
-          <div className="date">July 2022</div>
-          <div className="project-links">
-            <div className="repo">
-              <a href="https://github.com/cermuel/cermuel-chat">REPO</a>
-            </div>
-            <div className="live-view">
-              <a href="https://cermuel-chat.vercel.app/">LIVE</a>
-            </div>
-          </div>
-        </div>
-        <div className="project-cards">
-          <div className="project-name">BLOG APP</div>
-          <div className="date">July 2022</div>
-          <div className="project-links">
-            <div className="repo">
-              <a href="https://github.com/cermuel/blog-app">REPO</a>
-            </div>
-            <div className="live-view">
-              <a href="https://cermuel-blog-app.vercel.app/">LIVE</a>
-            </div>
-          </div>
-        </div>
-        <div className="project-cards">
-          <div className="project-name">MOVIE INFO</div>
+          <div className="project-name">MOVIEEMPIRE</div>
           <div className="date">May 2022</div>
           <div className="project-links">
             <div className="repo">
-              <a href="https://github.com/cermuel/myMovie2-i">REPO</a>
+              <a href="https://github.com/cermuel/moviempire">REPO</a>
             </div>
             <div className="live-view">
-              <a href="https://movie-info-updated.vercel.app/">LIVE</a>
+              <a href="http://movieempire.vercel.app/">LIVE</a>
             </div>
           </div>
         </div>
-
         <div className="project-cards">
           <div className="project-name">CRYPTO INFORMATION</div>
           <div className="date">January 2022</div>
@@ -76,6 +63,30 @@ const Projects = () => {
             </div>
             <div className="live-view">
               <a href="https://mycrypto-i.vercel.app/">LIVE</a>
+            </div>
+          </div>
+        </div>
+        <div className="project-cards">
+          <div className="project-name">Linktree Clone</div>
+          <div className="date">October 2022</div>
+          <div className="project-links">
+            <div className="repo">
+              <a href="http://github.com/cermuel/linktree-clone">REPO</a>
+            </div>
+            <div className="live-view">
+              <a href="https://linktree-clone-1.vercel.app/">LIVE</a>
+            </div>
+          </div>
+        </div>{" "}
+        <div className="project-cards">
+          <div className="project-name">Bored App</div>
+          <div className="date">October 2022</div>
+          <div className="project-links">
+            <div className="repo">
+              <a href="https://github.com/cermuel/linktree-clone">REPO</a>
+            </div>
+            <div className="live-view">
+              <a href="https://bore-d.vercel.app/">LIVE</a>
             </div>
           </div>
         </div>
