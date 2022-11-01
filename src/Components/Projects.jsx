@@ -1,5 +1,7 @@
 import React from "react";
 import "../App.css";
+import { FaGithub } from "react-icons/fa";
+import { FiShare } from "react-icons/fi";
 
 const Projects = () => {
   return (
@@ -11,10 +13,14 @@ const Projects = () => {
           <div className="date">September 2021</div>
           <div className="project-links">
             <div className="repo">
-              <a href="https://github.com/cermuel/RICKIPEDIA">REPO</a>
+              <a href="https://github.com/cermuel/RICKIPEDIA">
+                <FaGithub />
+              </a>
             </div>
             <div className="live-view">
-              <a href="https://rickipedia-mu.vercel.app/">LIVE</a>
+              <a href="https://rickipedia-mu.vercel.app/">
+                <FiShare />
+              </a>
             </div>
           </div>
         </div>
@@ -23,10 +29,14 @@ const Projects = () => {
           <div className="date">July 2022</div>
           <div className="project-links">
             <div className="repo">
-              <a href="https://github.com/cermuel/lonely">REPO</a>
+              <a href="https://github.com/cermuel/lonely">
+                <FaGithub />
+              </a>
             </div>
             <div className="live-view">
-              <a href="https://lonelyy.vercel.app/">LIVE</a>
+              <a href="https://lonelyy.vercel.app/">
+                <FiShare />
+              </a>
             </div>
           </div>
         </div>
@@ -35,10 +45,14 @@ const Projects = () => {
           <div className="date">May 2021</div>
           <div className="project-links">
             <div className="repo">
-              <a href="https://github.com/cermuel/clonify">REPO</a>
+              <a href="https://github.com/cermuel/clonify">
+                <FaGithub />
+              </a>
             </div>
             <div className="live-view" style={{ cursor: "pointer" }}>
-              <a href="https://cermuel-clonify.vercel.app/">LIVE</a>
+              <a href="https://cermuel-clonify.vercel.app/">
+                <FiShare />
+              </a>
             </div>
           </div>
         </div>
@@ -47,10 +61,14 @@ const Projects = () => {
           <div className="date">May 2022</div>
           <div className="project-links">
             <div className="repo">
-              <a href="https://github.com/cermuel/moviempire">REPO</a>
+              <a href="https://github.com/cermuel/moviempire">
+                <FaGithub />
+              </a>
             </div>
             <div className="live-view">
-              <a href="http://movieempire.vercel.app/">LIVE</a>
+              <a href="http://movieempire.vercel.app/">
+                <FiShare />
+              </a>
             </div>
           </div>
         </div>
@@ -59,10 +77,14 @@ const Projects = () => {
           <div className="date">January 2022</div>
           <div className="project-links">
             <div className="repo">
-              <a href="https://github.com/cermuel/crypto-stats">REPO</a>
+              <a href="https://github.com/cermuel/crypto-stats">
+                <FaGithub />
+              </a>
             </div>
             <div className="live-view">
-              <a href="https://mycrypto-i.vercel.app/">LIVE</a>
+              <a href="https://mycrypto-i.vercel.app/">
+                <FiShare />
+              </a>
             </div>
           </div>
         </div>
@@ -71,10 +93,14 @@ const Projects = () => {
           <div className="date">October 2022</div>
           <div className="project-links">
             <div className="repo">
-              <a href="http://github.com/cermuel/linktree-clone">REPO</a>
+              <a href="http://github.com/cermuel/linktree-clone">
+                <FaGithub />
+              </a>
             </div>
             <div className="live-view">
-              <a href="https://linktree-clone-1.vercel.app/">LIVE</a>
+              <a href="https://linktree-clone-1.vercel.app/">
+                <FiShare />
+              </a>
             </div>
           </div>
         </div>{" "}
@@ -83,10 +109,14 @@ const Projects = () => {
           <div className="date">October 2022</div>
           <div className="project-links">
             <div className="repo">
-              <a href="https://github.com/cermuel/linktree-clone">REPO</a>
+              <a href="https://github.com/cermuel/linktree-clone">
+                <FaGithub />
+              </a>
             </div>
             <div className="live-view">
-              <a href="https://bore-d.vercel.app/">LIVE</a>
+              <a href="https://bore-d.vercel.app/">
+                <FiShare />
+              </a>
             </div>
           </div>
         </div>
