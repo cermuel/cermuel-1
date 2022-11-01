@@ -7,7 +7,7 @@ const Contact = () => {
   const [openModal, setopenModal] = useState(false);
   return (
     <div className="contactContainer">
-      <div className="container-item main-header">Drop A Query</div>
+      <div className="container-item main-header">Let's Work</div>
       <br />
       <div className="container-item main-contacts">
         <div className="contacts">

@@ -416,6 +416,7 @@
   opacity: 1;
 }
 #skills {
+  margin-top: 300px;
 }
 .skillsContainer {
   display: flex;
@@ -438,8 +439,8 @@
   background: transparent;
 }
 .skills-item .img-normal {
-  width: 155px;
-  height: 140px;
+  width: 70px;
+
   background: transparent;
 }
 .skills-item .img-big {
