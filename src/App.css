@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@500&display=swap");
 .App {
   position: relative;
   display: flex;
@@ -260,8 +260,13 @@
 } */
 
 .section {
-  margin-top: 200px;
+  /* margin-top: 200px; */
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
 }
 .hiThere {
   color: rgb(172, 161, 161);
@@ -323,10 +328,10 @@
   width: 100%;
   height: 100px;
   color: white;
-  font-size: 2em;
+  font-size: 3em;
   word-spacing: 1px;
   text-transform: uppercase;
-  font-family: "MerriWeather", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .main-contacts {
   width: 300px;
@@ -416,7 +421,7 @@
   opacity: 1;
 }
 #skills {
-  margin-top: 300px;
+  /* margin-top: 300px; */
 }
 .skillsContainer {
   display: flex;
@@ -426,8 +431,8 @@
 }
 .skills-header {
   color: white;
-  font-size: 2em;
-  font-family: "MerriWeather", sans-serif;
+  font-size: 3em;
+  font-family: "Poppins", sans-serif;
 }
 .skills-item {
   margin: 20px;
@@ -522,8 +527,8 @@
 .projects-header {
   text-transform: uppercase;
   color: white;
-  font-size: 2em;
-  font-family: "MerriWeather", sans-serif;
+  font-size: 3em;
+  font-family: "Poppins", sans-serif;
 }
 .projects-container .project-cards .project-name {
   color: #fff;
@@ -550,4 +555,63 @@
 }
 .repo a {
   color: #007bff;
+}
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.aboutHeader {
+  color: white;
+  font-size: 3em;
+  font-family: "Poppins", sans-serif;
+}
+.about {
+  color: black;
+  background: linear-gradient(to right, aqua, #007bff);
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #0e1c38;
+  text-align: left;
+}
+.aboutResume {
+  background: #007bff;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.aboutResume a {
+  color: inherit;
+}
+.aboutResume:hover {
+  animation-name: aboutResumeAnimate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes aboutResumeAnimate {
+  0% {
+    background-color: red;
+    color: white;
+  }
+  25% {
+    background-color: purple;
+    color: white;
+  }
+  50% {
+    background-color: green;
+    color: aqua;
+  }
+  75% {
+    background-color: pink;
+    color: #3e60a5;
+  }
+  100% {
+    background-color: yellow;
+    color: #0e1c38;
+  }
 }

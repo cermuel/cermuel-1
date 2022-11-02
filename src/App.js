@@ -1,19 +1,16 @@
 import "./App.css";
 import logoBg from "./LOGO/logo-title.png";
-import Footer from "./Components/Footer";
-import Lorem from "./Components/lorem";
 import { AiOutlineHome } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi";
 import { FaProjectDiagram } from "react-icons/fa";
-import { AiOutlineUser } from "react-icons/ai";
 import { FaPaperPlane } from "react-icons/fa";
 import Home from "./Components/Home";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
-import { FaMicrophone } from "react-icons/fa";
-import { FiTwitter, FiInstagram, FiGithub } from "react-icons/fi";
+import { FiTwitter, FiInstagram, FiGithub, FiUser } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
+import About from "./Components/About";
 function App() {
   return (
     <body>
@@ -51,6 +48,15 @@ function App() {
                 </a>
               </li>
               <li className="list">
+                <a href="#about">
+                  <span className="icon">
+                    <FiUser />
+                  </span>
+                  <span className="text">ABOUT</span>
+                </a>
+              </li>
+
+              <li className="list">
                 <a href="#skills">
                   <span className="icon">
                     <GiSkills />
@@ -81,6 +87,9 @@ function App() {
         </div>
         <div className="section" id="home">
           <Home />
+        </div>
+        <div className="section" id="about">
+          <About />
         </div>
         <div className="section" id="skills">
           <Skills />

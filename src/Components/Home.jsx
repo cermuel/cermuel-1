@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import resume from "./RESUME.pdf";
 import "animate.css";
 
 const Home = () => {
@@ -16,9 +15,7 @@ const Home = () => {
         Web Developer
       </div>
       <div className="resume">
-        <a href={resume} download="download">
-          DOWNLOAD MY CV
-        </a>
+        <a href="#about">Know More</a>
       </div>
     </div>
   );
