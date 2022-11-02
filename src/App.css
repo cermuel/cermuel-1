@@ -304,6 +304,12 @@
   text-decoration: none;
   letter-spacing: 0.15em;
   font-family: "Poppins", sans-serif;
+  transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.resume a:hover {
+  color: #007bff;
+  background: white;
+  text-decoration: underline;
 }
 #contact {
   background: #192c52;
@@ -575,7 +581,13 @@
   font-size: 1.3em;
   font-weight: 500;
   color: #0e1c38;
+  line-height: 2em;
   text-align: left;
+  box-shadow: rgba(235, 235, 241, 0.2) 0px 7px 29px 0px;
+  transition: all 0.5s;
+}
+.about:hover {
+  box-shadow: none;
 }
 .aboutResume {
   background: #007bff;
@@ -583,10 +595,11 @@
   padding: 0.5em 1em;
   border-radius: 0.5em;
   cursor: pointer;
-  opacity: 0.8;
 }
 .aboutResume a {
+  text-decoration: none;
   color: inherit;
+  font-weight: 500;
 }
 .aboutResume:hover {
   animation-name: aboutResumeAnimate;
@@ -603,7 +616,7 @@
     color: white;
   }
   50% {
-    background-color: green;
+    background-color: rgb(38, 0, 255);
     color: aqua;
   }
   75% {
