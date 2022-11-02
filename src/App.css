@@ -575,7 +575,7 @@
 }
 .about {
   color: black;
-  background: linear-gradient(to right, aqua, #007bff);
+  background: linear-gradient(to right, #a0caf7, #007bff);
   padding: 20px;
   border-radius: 20px;
   font-size: 1.3em;
