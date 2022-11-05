@@ -9,6 +9,22 @@ const Projects = () => {
       <div className="projects-header">Projects</div>
       <div className="projects-container">
         <div className="project-cards">
+          <div className="project-name">CHOFOLIO</div>
+          <div className="date">November 2022</div>
+          <div className="project-links">
+            <div className="repo">
+              <a href="https://github.com/cermuel/chofolio">
+                <FaGithub />
+              </a>
+            </div>
+            <div className="live-view">
+              <a href="https://chofolio.vercel.app/">
+                <FiShare />
+              </a>
+            </div>
+          </div>
+        </div>{" "}
+        <div className="project-cards">
           <div className="project-name">RICKIPEDIA</div>
           <div className="date">September 2021</div>
           <div className="project-links">
