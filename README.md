@@ -1,2 +1,3 @@
-# cermuel
- My Personal Portfolio
+Hello!
+I'm Samuel Ngene,
+frontend developer
