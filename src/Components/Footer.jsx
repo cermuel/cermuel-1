@@ -1,63 +1,31 @@
-import React, { useRef } from "react";
-import { Link } from "react-router-dom";
-import "../App.css";
-import { AiOutlineHome } from "react-icons/ai";
-import { RiUserSettingsLine } from "react-icons/ri";
-import { MdOutlineTaskAlt } from "react-icons/md";
-import { MdOutlinePermContactCalendar } from "react-icons/md";
+import React from "react";
+import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
-  const changeActive = () => {
-    const list = document.querySelectorAll(".list");
-    function activeLink() {
-      list.forEach((item) => item.classList.remove("active"));
-      this.classList.add("active");
-    }
-    list.forEach((item) => item.addEventListener("click", activeLink));
-  };
-
   return (
-    <>
-      <div className="navigation">
-        <ul>
-          <li className="list">
-            <a href="">
-              <span className="icon">
-                <AiOutlineHome />
-              </span>
-              <span className="text">HOME</span>
-            </a>
-          </li>
-          <li className="list">
-            <a href="">
-              <span className="icon">
-                <RiUserSettingsLine />
-              </span>
-              <span className="text">Skills</span>
-            </a>
-          </li>
-          <li className="list">
-            <a href="">
-              <span className="icon">
-                <MdOutlineTaskAlt />
-              </span>
-              <span className="text">Projects</span>
-            </a>
-          </li>
-          <li className="list">
-            <a href="">
-              <span className="icon">
-                <MdOutlinePermContactCalendar />
-              </span>
-              <span className="text">Contact</span>
-            </a>
-          </li>
-
-          <div className="indicator"></div>
-        </ul>
+    <div className="w-full border-t-[1px] border-pry-color py-4 mt-20 mb-6">
+      <div className="w-full flex justify-between">
+        <div className="text-white max-sm:text-xs">
+          <a href="mailto:samuelobasi2005@gmail.com">
+            samuelobasi2005@gmail.com
+          </a>
+        </div>
+        <div className="flex gap-4 max-md:gap-2">
+          <a href="https://github.com/cermuel">
+            <FaGithub className="text-white text-xl hover:text-pry-color cursor-pointer" />
+          </a>
+          <a href="https://twitter.com/CermuelTECH">
+            <FaTwitter className="text-white text-xl hover:text-pry-color cursor-pointer" />
+          </a>
+          <a href="https://www.linkedin.com/in/ngene-samuel-obasi/">
+            <FaLinkedin className="text-white text-xl hover:text-pry-color cursor-pointer" />
+          </a>
+        </div>
       </div>
-      {changeActive}
-    </>
+      <div className="text-sm text-center font-light mt-4 w-full text-[#cccccc]">
+        &copy; Copyright Cermuel {new Date().getFullYear}
+      </div>
+    </div>
   );
 };
 
